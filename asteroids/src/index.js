@@ -12,6 +12,7 @@ window.addEventListener('DOMContentLoaded', function(){
   game_view.start();
   //------testing----------
   window.ctx = ctx;
+  window.game_view = game_view;
 });
 
 //-------------testing-------------
