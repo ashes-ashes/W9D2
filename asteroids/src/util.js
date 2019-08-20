@@ -14,7 +14,12 @@ const Util = {
   },
   scale(vec, m) {
     return [vec[0] * m, vec[1] * m];
-  }
+  },
+
+  getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+  }, 
+
 };
 
 module.exports = Util;
